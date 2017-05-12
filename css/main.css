@@ -1,8 +1,24 @@
 /* Escribe acá tus estilos*/
 body {
-	background-color: rgb(240, 219, 240);
+	background-color: #FFF;
 	text-align: center;
 	font-family: 'Playfair Display', serif;
+}
+
+header { 
+    background-color:transparent;
+    text-align: center;
+	padding:1em; 
+
+	 }	
+
+header img {
+	height:80px; 
+	width:auto;
+}
+
+header h1{
+	color: rgb(255, 204, 204);
 }
 
 label {
@@ -11,7 +27,7 @@ label {
 }
 
 button {
-  
+ 
   margin: 1em 0;
   text-align:center;
   text-decoration:none;    
