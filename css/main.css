@@ -1,1 +1,27 @@
 /* Escribe acá tus estilos*/
+body {
+	background-color: rgb(240, 219, 240);
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+}
+
+label {
+  display: block;
+  margin: .5em 0 0 0;
+}
+
+button {
+  
+  margin: 1em 0;
+  text-align:center;
+  text-decoration:none;    
+  background-color: rgb(204, 204, 255); 
+  transition: backgroung-color, 2s;
+}
+
+button:hover
+  {
+	border-radius:30px;
+  background-color: #fff;
+	color: rgb(51, 0, 51) ; 
+  }
